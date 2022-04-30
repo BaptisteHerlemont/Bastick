@@ -1,1 +1,12 @@
+Télécharger le programme : 
 wget https://github.com/BaptisteHerlemont/Bastick/blob/main/bastick.bash
+
+Télécharger le Makefile :
+wget https://github.com/BaptisteHerlemont/Bastick/blob/main/makefile
+
+Rendre le script utilisable :
+sudo make use 
+
+Vérifier que la commande précedente fonctionne : 
+./bastick.sh -H 
+=> le menu d'aide doit s'afficher
