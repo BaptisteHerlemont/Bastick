@@ -13,4 +13,7 @@ sudo make use
 
 Vérifier que la commande précedente fonctionne : 
 ./bastick.sh -H 
-=> le menu d'aide doit s'afficher
+=> le menu d'aide suivant doit s'afficher
+
+
+![menudaide](https://user-images.githubusercontent.com/94676429/166201531-2297bd90-ce87-4030-a8b2-df33fe176aef.png)
