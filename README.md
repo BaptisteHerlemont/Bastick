@@ -12,7 +12,9 @@ Rendre le script utilisable :
 sudo make use 
 
 Vérifier que la commande précedente fonctionne : 
+
 ./bastick.sh -H 
+
 => le menu d'aide suivant doit s'afficher
 
 
@@ -22,6 +24,9 @@ Vérifier que la commande précedente fonctionne :
 -Comment utiliser Bastick
 
 Vous devez posséder : 
+
 -Hmmer, téléchargeable ici : http://hmmer.org/download.html
+
 -Blast, téléchargeable ici : https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastDocs&DOC_TYPE=Download
+
 -Seqtk, téléchargeable ici : https://github.com/lh3/seqtk
