@@ -3,7 +3,7 @@ BaStick est un programme permettant de trouver des candidats pour de potentielle
 -Comment télécharger Bastick 
 
 Télécharger le programme : 
-wget https://github.com/BaptisteHerlemont/Bastick/blob/main/bastick.bash
+wget https://github.com/BaptisteHerlemont/Bastick/blob/main/BaStick.bash
 
 Télécharger le Makefile :
 wget https://github.com/BaptisteHerlemont/Bastick/blob/main/makefile
