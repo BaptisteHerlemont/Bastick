@@ -30,3 +30,5 @@ Vous devez posséder :
 -Blast, téléchargeable ici : https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastDocs&DOC_TYPE=Download
 
 -Seqtk, téléchargeable ici : https://github.com/lh3/seqtk
+
+BaStickUniq est un programme permettant de réaliser les mêmes analyses mais sur une seule protéine d'une banque.
