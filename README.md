@@ -8,7 +8,8 @@ sudo apt-get install git
 Téléchargez le programme et le Makefile: 
 git clone https://github.com/BaptisteHerlemont/Bastick
 
-Allez dans le répertoire créé :
+Allez dans le répertoire créé : 
+
 cd Bastick/
 
 Rendre le script utilisable :
