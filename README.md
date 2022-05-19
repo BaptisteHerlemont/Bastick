@@ -2,7 +2,7 @@ BaStick est un programme permettant de trouver des candidats pour de potentielle
 
 -Comment télécharger Bastick 
 
-Télécharger Git :
+Téléchargez Git :
 
 sudo apt-get install git
 
