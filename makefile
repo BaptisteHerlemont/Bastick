@@ -1,5 +1,5 @@
 use :
-	chmod +x BaStick.sh
+	chmod +x BaStick.bash
 
 clean :
 	rm -f protalign
