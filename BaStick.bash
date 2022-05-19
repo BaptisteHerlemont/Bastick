@@ -13,7 +13,7 @@ fichiersortie="resultatglobal"
 
 #~ CLIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII
 
-while getopts ":p:t:f:b:s:h:d:n:e:F:TH:o" option
+while getopts ":p:t:f:b:s:h:d:n:e:F:THo" option
 do
 echo "getops a trouvé l'option $option"
 case $option in 
@@ -29,6 +29,7 @@ p)
 	sed -i s/' '/'_'/g $banqueprot
 	banquerenseignee="1"
 	echo "Votre banque existe bien"
+	fi
 	;;
 t)
 	transcriptome="$OPTARG"
@@ -149,13 +150,13 @@ ARGUMENTS OPTIONNELS
 -T			INT			pour indiquer  le taux d'expression des valeurs FPKM à utiliser ( 2 par défaut )
 -H						affiche ce menu d'aide
 -o			STRING			pour indiquer le nom du fichier de sortie"
+
 	;;
 
 esac
 done
 
 #~ PROGRAMMEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
-
 
 if 
 (("$banquerenseignee" == "1" && "$transcriptomerenseigne" == "1" && "$blastok" == "1" && "$seqtkok" == "1" && "$domainerenseigne" == "1" && "$fichierfpkmrenseigne" =="1"  )) 2>/dev/null
@@ -476,7 +477,7 @@ rm -f *.ntf
 rm -f *.not
 rm -f *.blast 
 rm -f *.etape1bash 
-rm blast.*
+rm -f blast.*
 rm -f *.fasta
 rm -f *.fa
 rm -f *.fq 
