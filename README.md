@@ -15,11 +15,12 @@ Allez dans le répertoire créé :
 cd Bastick/
 
 Rendre le script utilisable :
+
 sudo make use 
 
 Vérifiez que la commande d'aide fonctionne : 
 
-./bastick.sh -H 
+./BaStick.bash -H 
 
 => le menu d'aide suivant doit s'afficher
 
