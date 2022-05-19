@@ -5,11 +5,11 @@ BaStick est un programme permettant de trouver des candidats pour de potentielle
 Télécharger Git :
 sudo apt-get install git
 
-Téléchargez le programme : 
-wget https://github.com/BaptisteHerlemont/Bastick/blob/main/BaStick.bash
+Téléchargez le programme et le Makefile: 
+git clone https://github.com/BaptisteHerlemont/Bastick
 
-Téléchargez le Makefile :
-wget https://github.com/BaptisteHerlemont/Bastick/blob/main/makefile
+Allez dans le répertoire créé :
+cd Bastick/
 
 Rendre le script utilisable :
 sudo make use 
