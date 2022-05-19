@@ -11,7 +11,7 @@ wget https://github.com/BaptisteHerlemont/Bastick/blob/main/makefile
 Rendre le script utilisable :
 sudo make use 
 
-Vérifier que la commande précedente fonctionne : 
+Vérifier que la commande d'aide fonctionne : 
 
 ./bastick.sh -H 
 
