@@ -1,5 +1,5 @@
 use :
-	chmod +x bastick.sh
+	chmod +x BaStick.sh
 
 clean :
 	rm -f protalign
@@ -57,7 +57,7 @@ clean :
 	rm -f *.not
 	rm -f *.blast 
 	rm -f *.etape1bash 
-	rm blast.*
+	rm -f blast.*
 	rm -f *.fasta
 	rm -f *.fa
 	rm -f *.fq 
